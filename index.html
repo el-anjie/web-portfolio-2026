@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angie | Web Design & IT Support Portfolio</title>
+  <meta name="description" content="Personal portfolio of Angie, a 4th-year BSIT student from Bicol University specializing in Web Design and IT Support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Angie.</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home"     class="nav-link active" data-section="home">Home</a>
+        <a href="#about"    class="nav-link" data-section="about">About Me</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#skills"   class="nav-link" data-section="skills">Skills</a>
+        <a href="#contact"  class="nav-link" data-section="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── HOME ─── -->
+  <section class="section hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Angie</h1>
+        <p class="hero-title">Web Design &amp; IT Support enthusiast</p>
+        <p class="hero-bio">
+          I am a 4th-Year BSIT student from Bicol University who is interested in
+          designing websites and applications, as well as learning about IT support.
+        </p>
+        <div class="hero-meta">
+          <span class="meta-item">
+            <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Legazpi City, Albay
+          </span>
+          <span class="meta-item">
+            <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63 19.79 19.79 0 01.01 4 2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.72 6.72l1.28-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            09155146381
+          </span>
+        </div>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary" id="hire-me-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Hire Me
+          </a>
+          <a href="assets/Castillo-BSIT-OJT-RESUME.pdf" download class="btn btn-secondary" id="resume-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="hero-socials">
+          <span class="socials-label">Follow me:</span>
+          <!-- ✏️ Replace the href values below with your actual profile URLs -->
+          <a href="https://github.com/el-anjie" target="_blank" rel="noopener noreferrer" class="social-link" id="github-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/angela-castillo-457627423" target="_blank" rel="noopener noreferrer" class="social-link" id="linkedin-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/angelamariellecastillo" target="_blank" rel="noopener noreferrer" class="social-link" id="facebook-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portfolio-arc-wrapper">
+          <svg class="arc-text-svg" viewBox="0 0 300 300" aria-hidden="true">
+            <defs>
+              <path id="arc-path" d="M 30,150 A 120,120 0 0,1 270,150" />
+            </defs>
+            <text class="arc-text">
+              <textPath href="#arc-path" startOffset="0%">PORTFOLIO • PORTFOLIO •</textPath>
+            </text>
+          </svg>
+          <div class="hero-photo-frame">
+            <img src="assets/angie-hero.jpg" alt="Angie's profile photo" class="hero-photo" id="hero-photo" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')" />
+            <div class="photo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section about-section" id="about">
+    <div class="section-inner">
+      <div class="about-photo-col">
+        <div class="about-photo-frame">
+          <img src="assets/angie-about.png" alt="Angie — about me photo" class="about-photo" id="about-photo" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')" />
+          <div class="photo-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content-col">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-bio-box">
+          <p>
+            I am an IT student who focuses more on frontend development and IT
+            support. In group works, I am always tasked to handle the documents and
+            presentations. I am diligent, adaptable, and a team player. I learn more
+            quickly through experiential or hands-on learning and likes to explore
+            different fields of IT.
+          </p>
+        </div>
+
+        <div class="tools-section">
+          <p class="tools-label">Software or Tools:</p>
+          <ul class="tools-list">
+            <li class="tool-item">
+              <span class="tool-dot"></span>
+              Google Workspace
+            </li>
+            <li class="tool-item">
+              <span class="tool-dot"></span>
+              Microsoft Office
+            </li>
+            <li class="tool-item">
+              <span class="tool-dot"></span>
+              Figma
+            </li>
+            <li class="tool-item">
+              <span class="tool-dot"></span>
+              Canva
+            </li>
+            <li class="tool-item">
+              <span class="tool-dot"></span>
+              VS Code
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section projects-section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title centered">Projects</h2>
+
+      <div class="slider-container" id="projects-slider-container">
+        <button class="slider-arrow arrow-left" id="proj-prev" aria-label="Previous projects">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <div class="slider-viewport">
+          <div class="slider-track" id="projects-track">
+
+            <!-- Project 1 -->
+            <div class="slide">
+              <div class="folder-card" tabindex="0" id="folder-iskomart">
+                <div class="folder-tab"></div>
+                <div class="folder-body">
+                  <div class="folder-front">
+                    <h3 class="folder-name">IskoMart</h3>
+                  </div>
+                  <div class="folder-back">
+                    <p class="folder-desc">
+                      A Web-based E-Marletplace for Bicol University Student Merchants Selling Goods and Services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="slide">
+              <div class="folder-card" tabindex="0" id="folder-dentisys">
+                <div class="folder-tab"></div>
+                <div class="folder-body">
+                  <div class="folder-front">
+                    <h3 class="folder-name">DentiSYS</h3>
+                  </div>
+                  <div class="folder-back">
+                    <p class="folder-desc">
+                      A Web-based Grading and Retention Monitoring System for Bicol University College of Dental Medicine.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="slide">
+              <div class="folder-card" tabindex="0" id="folder-codeclimb">
+                <div class="folder-tab"></div>
+                <div class="folder-body">
+                  <div class="folder-front">
+                    <h3 class="folder-name">CodeClimb</h3>
+                  </div>
+                  <div class="folder-back">
+                    <p class="folder-desc">
+                     A gamified learning application for C programming language.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="slide">
+              <div class="folder-card" tabindex="0" id="folder-tsukkibot">
+                <div class="folder-tab"></div>
+                <div class="folder-body">
+                  <div class="folder-front">
+                    <h3 class="folder-name">Tsukkibot</h3>
+                  </div>
+                  <div class="folder-back">
+                    <p class="folder-desc">
+                      A simple calculator application.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /slider-track -->
+        </div><!-- /slider-viewport -->
+
+        <button class="slider-arrow arrow-right" id="proj-next" aria-label="Next projects">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div><!-- /slider-container -->
+
+      <div class="slider-dots" id="proj-dots" role="tablist" aria-label="Project slides"></div>
+      <p class="mobile-tap-hint">Tap a folder to reveal its description</p>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section skills-section" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title centered">Skills</h2>
+
+      <div class="slider-container" id="skills-slider-container">
+        <button class="slider-arrow arrow-left" id="skill-prev" aria-label="Previous skills">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <div class="slider-viewport">
+          <div class="slider-track" id="skills-track">
+
+            <!-- Technical Skills -->
+            <div class="slide">
+              <div class="skill-card" id="skill-technical">
+                <h3 class="skill-card-title">Technical Skills</h3>
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <span class="skill-label">HTML, CSS, PHP</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Python, JavaScript</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">IT Support</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Design</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interpersonal Skills -->
+            <div class="slide">
+              <div class="skill-card" id="skill-interpersonal">
+                <h3 class="skill-card-title">Interpersonal Skills</h3>
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <span class="skill-label">Team Collaboration</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Adaptability</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Good Communication</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Hard-working</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Operational Skills -->
+            <div class="slide">
+              <div class="skill-card" id="skill-operational">
+                <h3 class="skill-card-title">Operational Skills</h3>
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <span class="skill-label">Task Prioritization</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Time Management</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="79"></div></div>
+                  </div>
+                  <div class="skill-item">
+                    <span class="skill-label">Research &amp; Analysis</span>
+                    <div class="skill-bar"><div class="skill-fill" data-width="84"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /skills-track -->
+        </div><!-- /slider-viewport -->
+
+        <button class="slider-arrow arrow-right" id="skill-next" aria-label="Next skills">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div><!-- /skills-slider-container -->
+
+      <div class="slider-dots" id="skill-dots" role="tablist" aria-label="Skill slides"></div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner contact-inner">
+      <h2 class="section-title centered">Contact Me</h2>
+      <p class="contact-sub">Have a project in mind? Let's connect.</p>
+
+      <div class="contact-card">
+        <a href="mailto:amrc2023-9765-72642@bicol-u.edu.ph" class="contact-email" id="contact-email-link">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+          amrc2023-9765-72642@bicol-u.edu.ph
+        </a>
+      </div>
+
+      <div class="contact-socials">
+        <!-- ✏️ Replace the href values below with your actual profile URLs -->
+        <a href="https://github.com/el-anjie" target="_blank" rel="noopener noreferrer" class="social-btn" id="contact-github" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/angela-castillo-457627423" target="_blank" rel="noopener noreferrer" class="social-btn" id="contact-linkedin" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://www.facebook.com/angelamariellecastillo" target="_blank" rel="noopener noreferrer" class="social-btn" id="contact-facebook" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Angie. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
